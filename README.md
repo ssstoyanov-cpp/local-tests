@@ -3,7 +3,7 @@
 1. Скачиваем [gtest](https://github.com/google/googletest/archive/release-1.10.0.tar.gz)
 2. Распаковываем в папку с проектом, называем её ```gtest``` чтобы было как на скрине
 
-![image1](/images/image1)
+![image1](/images/image1.png)
 
 3. Добавляем в корневой ```CMakeLists.txt``` вот эти строки 
 
@@ -45,4 +45,4 @@ target_link_libraries(runUnitTests task_lib)
 4. Редактируем исходные файлы в строке ```set(SRC_FILES...``` (звездочка не работает, чтобы добавлялись все, если найдете как сделать — напишите)
 5. Меняем конфигурацию запуска, так чтобы она была как на скрине
 
-![image2](/images/image2)
+![image2](/images/image2.png)

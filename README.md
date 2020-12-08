@@ -28,7 +28,7 @@ set(SRC_FILES ${PROJECT_SOURCE_DIR}/src/main.cpp
 
 add_library(task_lib ${SRC_FILES})
 
-# This adds another subdirectory, which has 'poject(gtest)'.
+# This adds another subdirectory, which has 'project(gtest)'.
 add_subdirectory(gtest)
 
 # Unit Tests

@@ -14,7 +14,8 @@
 
 # Make PROJECT_SOURCE_DIR, PROJECT_BINARY_DIR, and PROJECT_NAME available.
 set(CMAKE_CXX_STANDARD 17)
-set(PROJECT_NAME Ex08)
+# FIXME: Define project name
+set(PROJECT_NAME %%ADD YOUR PROJECT NAME HERE%%)
 project(${PROJECT_NAME})
 
 
@@ -23,8 +24,7 @@ file(GLOB TEST_SRC_FILES ${PROJECT_SOURCE_DIR}/test/*.cpp)
 
 # FIXME: Define all cpp files which you want to test
 set(SRC_FILES ${PROJECT_SOURCE_DIR}/src/main.cpp
-        ${PROJECT_SOURCE_DIR}/src/MyString.cpp
-        ${PROJECT_SOURCE_DIR}/include/MyString.h )
+        ${PROJECT_SOURCE_DIR} )
 
 add_library(task_lib ${SRC_FILES})
 
